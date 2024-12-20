@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Moonstone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Barra lateral fixa à esquerda */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 250px;
+            background-color: #222; /* Cor mais escura */
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para separação */
+        }
+
+            .sidebar a {
+                color: #ddd; /* Texto em tom mais claro */
+                text-decoration: none;
+                display: block;
+                padding: 12px 20px;
+                font-size: 16px;
+                transition: all 0.3s ease; /* Animação suave */
+                border-radius: 5px; /* Cantos arredondados */
+            }
+
+                .sidebar a:hover {
+                    background-color: #444; /* Cor de destaque ao passar o mouse */
+                    color: #fff;
+                    transform: scale(1.05); /* Leve zoom ao passar o mouse */
+                }
+
+            .sidebar i {
+                margin-right: 10px;
+            }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            background-color: #f8f9fa; /* Fundo claro para contraste */
+        }
+
+        /* Título do menu lateral */
+        .sidebar .navbar-brand {
+            font-size: 1.6rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* Estilização do dropdown */
+        .dropdown-menu {
+            background-color: #333;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: #ddd;
+            transition: all 0.3s ease;
+        }
+
+            .dropdown-item:hover {
+                background-color: #444;
+                color: #fff;
+            }
+
+        /* Animação suave no hover dos botões */
+        .btn-secondary {
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+            .btn-secondary:hover {
+                background-color: #495057;
+                transform: scale(1.05);
+            }
+
+        /* Rodapé */
+        footer {
+            background-color: #222;
+            color: #ddd;
+        }
+
+            footer a {
+                color: #bbb;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    color: #fff;
+                }
+    </style>
+
+</head>
+<body>
+    <div class="sidebar">
+        <a class="navbar-brand" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminJogos" asp-action="Index">
+            <i class="fas fa-gamepad"></i> Produtos
+        </a>
+
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminCategorias" asp-action="Index">
+            <i class="fas fa-th-large"></i> Categorias
+        </a>
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminPedidos" asp-action="Index">
+            <i class="fas fa-box"></i> Pedidos
+        </a>
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminRelatorioVendas" asp-action="Index">
+            <i class="fas fa-chart-line"></i> Relatório Vendas
+        </a>
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminUsuarios" asp-action="Index">
+            <i class="fas fa-users"></i> Gestão de Usuários
+        </a>
+        <!-- Menu dropdown para gráficos -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-chart-pie"></i> Gráficos de Vendas
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="Index">Vendas Anual</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasMensal" asp-route-dias="30">Vendas Mensais</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasSemanal" asp-route-dias="7">Vendas Semanais</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasTrimestral" asp-route-dias="90">Vendas Trimestrais</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasTotais">Vendas Totais</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasCustomizadas">Vendas Personalizadas</a>
+            </div>
+        </div>
+        <!-- Gerenciar Imagens -->
+        <a class="nav-link" asp-area="Admin" asp-controller="AdminImagens" asp-action="Index">
+            <i class="fas fa-image"></i> Gerenciar Imagens
+        </a>
+        <!-- Relatórios -->
+        <a class="nav-link" asp-controller="AdminJogosReport" asp-action="JogosCategoriaReport">
+            <i class="fas fa-file-alt"></i> Visualizar Relatório de Jogos (Web)
+        </a>
+        <a class="nav-link" asp-controller="AdminJogosReport" asp-action="JogosCategoriaPDF">
+            <i class="fas fa-file-pdf"></i> Baixar Relatório de Jogos em PDF
+        </a>
+        <!-- Promoções -->
+        <a class="nav-link" asp-area="Admin" asp-controller="Promocoes" asp-action="Index">
+            <i class="fas fa-tags"></i> Gestão de Promoções
+        </a>
+        <a class="nav-link" asp-controller="Account" asp-action="Logout">
+            <i class="fas fa-sign-out-alt"></i> Sair
+        </a>
+    </div>
+
+
+    <div class="content">
+        @* <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="Admin" asp-controller="Admin" asp-action="Index">MoonstoneTCC</a>
+                </div>
+            </nav>
+        </header> *@
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+@*     <footer class="border-top footer text-muted text-center py-3">
+        <div class="container">
+            &copy; 2024 - MoonstoneTCC - <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

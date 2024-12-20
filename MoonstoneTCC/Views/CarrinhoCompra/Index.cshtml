@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["HideFooter"] = true;
+}
+
+
+
+@model CarrinhoCompraViewModel
+
+<div class="container mt-5" style="width: 100%;">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <!-- Cabeçalho do Carrinho -->
+            <div class="d-flex align-items-center mb-4">
+                <i class="fa-solid fa-cart-shopping text-white" style="font-size: 3rem; margin-right: 1rem;"></i>
+                <h2 class="text-white fw-bold">Seu Carrinho de Compras</h2>
+            </div>
+
+
+            <!-- Tabela de Produtos -->
+            <table class="table table-hover border rounded shadow-sm">
+                <thead class="bg-primary text-white">
+                    <tr>
+                        <th scope="col" class="text-center">Imagem</th>
+                        <th scope="col">Jogo</th>
+                        <th scope="col">Plataformas</th>
+                        <th scope="col" class="text-center">Quantidade</th>
+                        <th scope="col" class="text-end">Preço</th>
+                        <th scope="col" class="text-end">Subtotal</th>
+                        <th scope="col" class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CarrinhoCompra.CarrinhoCompraItems)
+                    {
+                        <tr style="background-color: #fff; color: #3B0056;">
+                            <!-- Miniatura da Imagem -->
+                            <td class="text-center align-middle">
+                                <img src="@item.Jogo.ImagemUrl" alt="@item.Jogo.Nome" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;" />
+                            </td>
+
+                            <!-- Nome do Jogo -->
+                            <td class="align-middle fw-bold">@item.Jogo.Nome</td>
+
+                            <!-- Plataformas -->
+                            <td class="align-middle">@item.Jogo.Plataformas</td>
+
+                            <!-- Quantidade -->
+                            <td class="text-center align-middle fw-semibold">@item.Quantidade</td>
+
+                            <td class="text-end align-middle">
+                                <span style="white-space: nowrap;">R$ @item.Jogo.Preco.ToString("N2")</span>
+                            </td>
+
+                            <!-- Subtotal -->
+                            <td class="text-end align-middle">
+                                <span style="white-space: nowrap;">
+                                    @($"R$ {(item.Quantidade * item.Jogo.Preco):N2}")
+                                </span>
+                            </td>
+
+
+                            <!-- Ações -->
+                            <td class="text-center align-middle">
+                                <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
+                                   asp-route-jogoId="@item.Jogo.JogoId"
+                                   class="btn btn-sm btn-outline-danger"
+                                   title="Remover do Carrinho"
+                                   style="color: #3B0056; border-color: #3B0056;">
+                                    <i class="fa-solid fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+                <tfoot>
+                    <tr class="bg-light">
+                        <td colspan="5" class="text-end fw-bold fs-5">Total:</td>
+                        <td colspan="2" class="text-end fw-bold fs-5 text-primary">
+                            @Model.CarrinhoCompraTotal.ToString("c")
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <!-- Botões de Ação -->
+            <div class="d-flex justify-content-between mt-4">
+                <a class="btn btn-primary btn-lg" asp-controller="Jogo" asp-action="List">
+                    <i class="fa-solid fa-arrow-left"></i> Continuar Comprando
+                </a>
+                <a class="btn btn-success btn-lg" asp-controller="Pedido" asp-action="Checkout">
+                    Encerrar Pedido <i class="fa-solid fa-check"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .table-hover tbody tr:hover {
+        background-color: #f5f5ff; /* Tom claro de roxo */
+    }
+
+    .text-primary {
+        color: #6a0dad !important; /* Roxo intenso */
+    }
+
+    .btn-primary {
+        background-color: #6a0dad;
+        border-color: #6a0dad;
+    }
+
+        .btn-primary:hover {
+            background-color: #5a009d;
+            border-color: #5a009d;
+        }
+
+    .btn-success {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+    }
+
+        .btn-success:hover {
+            background-color: #4cae4c;
+            border-color: #3d8b3d;
+        }
+</style>

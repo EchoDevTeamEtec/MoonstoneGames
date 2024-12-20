@@ -1,0 +1,90 @@
+﻿
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .contact-card {
+            background-color: #6a0dad;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .contact-card:hover {
+            transform: scale(1.05);
+        }
+        .icon-circle {
+            background-color: white;
+            color: #6a0dad;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+        }
+        .card-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .contact-info {
+            font-size: 1.2rem;
+            margin-left: 15px;
+        }
+    </style>
+
+
+    <div class="container py-5">
+        <h1 class="text-center mb-4 text-primary">Entre em Contato</h1>
+        <div class="row g-4">
+            <!-- Telefone -->
+            <div class="col-md-4">
+                <div class="card contact-card p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-circle">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h5 class="card-title">Telefone</h5>
+                            <p>(11) 98765-4321</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E-mail -->
+            <div class="col-md-4">
+                <div class="card contact-card p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-circle">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h5 class="card-title">E-mail</h5>
+                            <p>contato@moonstone.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Localização -->
+            <div class="col-md-4">
+                <div class="card contact-card p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-circle">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h5 class="card-title">Endereço</h5>
+                            <p>Rua dos Desenvolvedores, 123</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="https://wa.me/5511987654321" class="btn btn-success btn-lg" target="_blank">
+                <i class="fab fa-whatsapp"></i> Fale Conosco
+            </a>
+        </div>
+    </div>

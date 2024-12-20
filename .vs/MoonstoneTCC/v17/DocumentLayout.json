@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\areas\\admin\\views\\adminimagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\areas\\admin\\views\\adminimagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\areas\\admin\\controllers\\adminimagenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\areas\\admin\\controllers\\adminimagenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\areas\\admin\\views\\adminimagens\\uploadfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\areas\\admin\\views\\adminimagens\\uploadfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\areas\\admin\\views\\adminimagens\\getimagens.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\areas\\admin\\views\\adminimagens\\getimagens.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\jogo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\jogo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\shared\\components\\carrinhocompraresumo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\shared\\components\\carrinhocompraresumo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\shared\\_jogosresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\shared\\_jogosresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|c:\\users\\usuario\\source\\repos\\moonstonetcc\\moonstonetcc\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C46E88C9-561E-45B1-B72D-1A15DB2F0662}|MoonstoneTCC\\MoonstoneTCC.csproj|solutionrelative:moonstonetcc\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadFiles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\UploadFiles.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\UploadFiles.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\UploadFiles.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\UploadFiles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:51:16.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\Index.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:50:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetImagens.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\GetImagens.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\GetImagens.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\GetImagens.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Areas\\Admin\\Views\\AdminImagens\\GetImagens.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:50:05.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminImagensController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Controllers\\AdminImagensController.cs",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Areas\\Admin\\Controllers\\AdminImagensController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Controllers\\AdminImagensController.cs",
+              "RelativeToolTip": "MoonstoneTCC\\Areas\\Admin\\Controllers\\AdminImagensController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:48:37.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:36:51.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckoutCompleto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:20:45.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Pedido\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Pedido\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Pedido\\Checkout.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Pedido\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:46:36.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:31:31.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:23:37.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:41:59.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Jogo\\Details.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Jogo\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Jogo\\Details.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Jogo\\Details.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAA2wFgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:14:14.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:56:46.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Contato\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Contato\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Contato\\Index.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Contato\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:56:36.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:55:18.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAO4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:55:24.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_JogosResumo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_JogosResumo.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Shared\\_JogosResumo.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Shared\\_JogosResumo.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Shared\\_JogosResumo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:50:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoonstoneTCC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MoonstoneTCC\\MoonstoneTCC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MoonstoneTCC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T16:50:06.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
